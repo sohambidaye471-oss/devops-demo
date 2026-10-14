@@ -1,7 +1,6 @@
 services:
   app:
-    image: ghcr.io/swaranalavade01/devops-demo:latest
-    ports: ["5000:5000"]
+image: ghcr.io/sohambidaye471-oss/devops-demo:latest    ports: ["5000:5000"]
     restart: always
   prometheus:
     image: prom/prometheus
